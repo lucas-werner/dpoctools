@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/dpoctools/static/css/main.7098c01a.css",
-    "main.js": "/dpoctools/static/js/main.21fc6ed8.js",
+    "main.css": "/dpoctools/static/css/main.bc57f599.css",
+    "main.js": "/dpoctools/static/js/main.a93b10ca.js",
+    "static/js/239.d6b38947.chunk.js": "/dpoctools/static/js/239.d6b38947.chunk.js",
+    "static/js/213.2a15b06e.chunk.js": "/dpoctools/static/js/213.2a15b06e.chunk.js",
+    "static/js/732.f12ebdd0.chunk.js": "/dpoctools/static/js/732.f12ebdd0.chunk.js",
     "static/js/453.cd856566.chunk.js": "/dpoctools/static/js/453.cd856566.chunk.js",
     "index.html": "/dpoctools/index.html",
-    "main.7098c01a.css.map": "/dpoctools/static/css/main.7098c01a.css.map",
-    "main.21fc6ed8.js.map": "/dpoctools/static/js/main.21fc6ed8.js.map",
+    "main.bc57f599.css.map": "/dpoctools/static/css/main.bc57f599.css.map",
+    "main.a93b10ca.js.map": "/dpoctools/static/js/main.a93b10ca.js.map",
+    "239.d6b38947.chunk.js.map": "/dpoctools/static/js/239.d6b38947.chunk.js.map",
+    "213.2a15b06e.chunk.js.map": "/dpoctools/static/js/213.2a15b06e.chunk.js.map",
+    "732.f12ebdd0.chunk.js.map": "/dpoctools/static/js/732.f12ebdd0.chunk.js.map",
     "453.cd856566.chunk.js.map": "/dpoctools/static/js/453.cd856566.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7098c01a.css",
-    "static/js/main.21fc6ed8.js"
+    "static/css/main.bc57f599.css",
+    "static/js/main.a93b10ca.js"
   ]
 }
