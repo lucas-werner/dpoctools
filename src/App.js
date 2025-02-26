@@ -6,7 +6,6 @@ import "jspdf-autotable";
 
 // Create an instance of the OpenAI client.
 // In production, load your API key from an environment variable.
-console.log(process.env)
 const openai = new OpenAI({
   apiKey: process.env.REACT_APP_API_KEY,
   dangerouslyAllowBrowser: true,
