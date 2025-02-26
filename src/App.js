@@ -6,7 +6,7 @@ import "jspdf-autotable";
 // Create an instance of the OpenAI client.
 // In production, load your API key from an environment variable.
 const openai = new OpenAI({
-  apiKey: "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", // Replace with your API key.
+  apiKey: "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", // Replace with your API key.
   dangerouslyAllowBrowser: true
 });
 
@@ -24,7 +24,7 @@ const getDataUrlFromImage = (url) => {
       const dataURL = canvas.toDataURL("image/png");
       resolve(dataURL);
     };
-    img.onerror = () => {
+    img.onerror = () => {m 
       reject(new Error("Could not load image at " + url));
     };
     img.src = url;
