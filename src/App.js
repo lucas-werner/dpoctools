@@ -24,7 +24,7 @@ const getDataUrlFromImage = (url) => {
       const dataURL = canvas.toDataURL("image/png");
       resolve(dataURL);
     };
-    img.onerror = () => {m 
+    img.onerror = () => {
       reject(new Error("Could not load image at " + url));
     };
     img.src = url;
