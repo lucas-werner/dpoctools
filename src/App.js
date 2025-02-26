@@ -3,11 +3,13 @@ import "./index.css";
 import OpenAI from "openai";
 import { jsPDF } from "jspdf";
 import "jspdf-autotable";
+
 // Create an instance of the OpenAI client.
 // In production, load your API key from an environment variable.
+console.log(process.env)
 const openai = new OpenAI({
-  apiKey: "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", // Replace with your API key.
-  dangerouslyAllowBrowser: true
+  apiKey: process.env.REACT_APP_API_KEY,
+  dangerouslyAllowBrowser: true,
 });
 
 // Helper function to convert an image URL to a base64 data URL.
